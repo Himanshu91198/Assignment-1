@@ -1,0 +1,658 @@
+body {
+    font-family: poppins;
+}
+
+header {
+    background-color: #CE0505;
+    height: 80px;
+    position: relative;
+}
+
+.logo-span {
+    background-color: white;
+    border-radius: 52%;
+    padding: 5px 15px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+}
+
+.logo {
+    color: #CE0505;
+    font-size: 33px;
+    font-weight: 600px;
+    text-decoration: none;
+}
+
+.login-signup {
+    position: absolute;
+    right: 80px;
+    top: 30px;
+    word-spacing: 10px;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+}
+
+.createacc {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    word-spacing: normal;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+section {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.title-text {
+    /* Layout Properties */
+    position: absolute;
+    top: 69px;
+    left: 113px;
+    width: 514px;
+    height: 51px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+}
+
+.Filter-article {
+    /* Layout Properties */
+    position: absolute;
+    top: 195px;
+    left: 113px;
+    width: 260px;
+    height: 682px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.Result1-article {
+    /* Layout Properties */
+    top: 195px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+}
+
+.Result2-article {
+    /* Layout Properties */
+    position: absolute;
+    top: 520px;
+    left: 418px;
+    width: 794px;
+    height: 291px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.Pagination {
+    position: relative;
+    bottom: -821px;
+    left: 58%;
+    width: 330px;
+    height: 36px;
+}
+
+.Filter1 {
+    /* Layout Properties */
+    position: relative;
+    top: 17px;
+    left: 26px;
+    width: 55px;
+    height: 25px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.Select {
+    position: relative;
+    top: 20px;
+    left: 27px;
+    width: 106px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.Select-location {
+    position: relative;
+    /* Layout Properties */
+    top: 25px;
+    left: 27px;
+    width: 208px;
+    height: 35px;
+    /* UI Properties */
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1;
+
+}
+
+.Location {
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+
+.Cuisine {
+    position: relative;
+    /* Layout Properties */
+    top: 35px;
+    left: 27px;
+    width: 52px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.input {
+    /* Layout Properties */
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    /* UI Properties */
+    border: 2px solid #3A5075;
+    border-radius: 2px;
+    opacity: 1;
+    left: 27px;
+    margin: 3%;
+}
+
+.food {
+    /* Layout Properties */
+    position: relative;
+    top: -1px;
+    left: 33px;
+    width: 86px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+
+.Cost {
+    position: relative;
+    /* Layout Properties */
+    top: 12px;
+    left: 27px;
+    width: 89px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.Two {
+    top: -23px;
+    left: -8px;
+    width: 69px;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    margin: 5%;
+    /* UI Properties */
+    border: 2px solid #3A5075;
+    border-radius: 9px;
+    opacity: 1;
+}
+
+.for {
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    top: -24px;
+    position: relative;
+    left: -40px;
+}
+
+.Sort {
+    /* Layout Properties */
+    position: relative;
+    top: 0px;
+    left: 26px;
+    width: 55px;
+    height: 25px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.Two-1 {
+    top: -23px;
+    left: -4px;
+    width: 69px;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    margin: 3%;
+    /* UI Properties */
+    border: 2px solid #3A5075;
+    border-radius: 9px;
+    opacity: 1;
+}
+
+.for-1 {
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    top: -24px;
+    position: relative;
+    left: -30px;
+}
+
+.image {
+    position: absolute;
+    /* Layout Properties */
+    top: 25px;
+    left: 35px;
+    width: 120px;
+    height: 120px;
+    /* UI Properties */
+    opacity: 1;
+    border-radius: 10%;
+}
+
+.Big {
+    position: absolute;
+    top: 39px;
+    left: 196px;
+    width: 303px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.fort {
+    position: absolute;
+    top: 87px;
+    left: 201px;
+    width: 40px;
+    height: 23px;
+    text-align: left;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.shop {
+    /* Layout Properties */
+    position: absolute;
+    top: 115px;
+    left: 201px;
+    width: 370px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+
+}
+
+hr {
+    position: relative;
+    /* Layout Properties */
+    top: 176px;
+    left: 3px;
+    width: 726px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid gray;
+    opacity: 1;
+}
+
+.info {
+    position: relative;
+    top: 208px;
+    left: 40px;
+    width: 140px;
+    height: 118px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+
+}
+
+.bakery {
+    position: relative;
+    top: 91px;
+    left: 203px;
+    width: 251px;
+    height: 69px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.image-1 {
+    position: absolute;
+    /* Layout Properties */
+    top: 25px;
+    left: 35px;
+    width: 120px;
+    height: 120px;
+    /* UI Properties */
+    opacity: 1;
+    border-radius: 10%;
+}
+
+.Bake {
+    position: absolute;
+    top: 39px;
+    left: 196px;
+    width: 303px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.fort-1 {
+    position: absolute;
+    top: 87px;
+    left: 201px;
+    width: 40px;
+    height: 23px;
+    text-align: left;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.shop-1 {
+    /* Layout Properties */
+    position: absolute;
+    top: 115px;
+    left: 201px;
+    width: 370px;
+    height: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+
+}
+
+hr {
+    position: relative;
+    /* Layout Properties */
+    top: 176px;
+    left: 3px;
+    width: 726px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid gray;
+    opacity: 1;
+}
+
+.info-1 {
+    position: relative;
+    top: 208px;
+    left: 40px;
+    width: 140px;
+    height: 118px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+
+}
+
+.bakery-1 {
+    position: relative;
+    top: 91px;
+    left: 203px;
+    width: 251px;
+    height: 69px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.less {
+    position: absolute;
+    left: -145px;
+    width: 36px;
+    height: 36px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 0.4;
+}
+
+.first {
+    position: absolute;
+    left: -93px;
+    width: 36px;
+    height: 36px;
+    background: #8C96AB 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.second {
+    position: absolute;
+    left: -41px;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.third {
+    position: absolute;
+    left: 12px;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.fourth {
+    position: absolute;
+    left: 65px;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.fifth {
+    position: absolute;
+    left: 117px;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.greater {
+    position: absolute;
+    left: 171px;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
+
+.zero {
+    position: absolute;
+    top: -12px;
+    left: 6px;
+    width: 8px;
+    height: 16px;
+    opacity: 0.4;
+    font-size: 40px;
+}
+
+.one {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    width: 8px;
+    height: 16px;
+    opacity: 0.4;
+    font-size: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.two {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 8px;
+    height: 16px;
+    opacity: 0.4;
+    font-size: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #c6c6c6;
+    opacity: 1;
+}
+
+.three {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 8px;
+    height: 16px;
+    opacity: 0.4;
+    font-size: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #c6c6c6;
+    opacity: 1;
+}
+
+.four {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 8px;
+    height: 16px;
+    opacity: 0.4;
+    font-size: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #c6c6c6;
+    opacity: 1;
+}
+
+.five {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 8px;
+    height: 16px;
+    opacity: 0.4;
+    font-size: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #c6c6c6;
+    opacity: 1;
+}
+
+.six {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 8px;
+    height: 16px;
+    opacity: 0.4;
+    font-size: 23px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #c6c6c6;
+    opacity: 1;
+}
